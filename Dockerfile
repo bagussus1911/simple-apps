@@ -1,5 +1,5 @@
 FROM node:18
-WOKDIR /app
+WORKDIR /app
 ADD ./app/
 RUN npm install
 CMD npm start
